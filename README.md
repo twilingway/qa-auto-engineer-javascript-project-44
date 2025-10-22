@@ -17,3 +17,7 @@
 ### brain-calc:
 
 [![asciicast brain-calc](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/RbaXU3xdeIo1zJ4rUH110Ponv)
+
+### brain-gcd:
+
+[![asciicast brain-gcd](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/GIQcC4fpMU3Kbyf18yGb0wo0e)
