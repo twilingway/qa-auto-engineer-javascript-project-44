@@ -21,3 +21,7 @@
 ### brain-gcd:
 
 [![asciicast brain-gcd](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/GIQcC4fpMU3Kbyf18yGb0wo0e)
+
+### brain-progression:
+
+[![asciicast brain-progression](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/yW2Z7aLGFrGeQBoXNg3aXNTn2)
