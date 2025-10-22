@@ -25,3 +25,7 @@
 ### brain-progression:
 
 [![asciicast brain-progression](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/yW2Z7aLGFrGeQBoXNg3aXNTn2)
+
+### brain-prime
+
+[![asciicast brain-prime](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/GkN8WZL09tHKfmFjQ7dlWY0YS)
