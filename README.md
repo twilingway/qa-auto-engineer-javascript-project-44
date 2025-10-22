@@ -6,8 +6,14 @@
 
 ## Demo
 
+### brain-games:
+
 [![asciicast brain-games](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/Qbb0XrYpXWNMivhPfSq9eNskM)
 
+### brain-even:
+
 [![asciicast brain-even](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/i3nPQyhn9ScwXCCIO9MyWOmvF)
+
+### brain-calc:
 
 [![asciicast brain-calc](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/RbaXU3xdeIo1zJ4rUH110Ponv)
