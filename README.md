@@ -1,31 +1,47 @@
-### Hexlet tests and linter status:
+# Brain Games
 
 [![Actions Status](https://github.com/twilingway/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/twilingway/qa-auto-engineer-javascript-project-44/actions)
 
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=twilingway_qa-auto-engineer-javascript-project-44)
+Brain Games - это набор из пяти консольных математических игр. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех верных ответов игра считается пройденной. Неправильный ответ завершает игру.
 
-## Demo
+## Установка
 
-### brain-games:
+Для установки проекта, клонируйте репозиторий и установите зависимости:
 
-[![asciicast brain-games](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/Qbb0XrYpXWNMivhPfSq9eNskM)
+```bash
+git clone https://github.com/twilingway/qa-auto-engineer-javascript-project-44.git
+cd qa-auto-engineer-javascript-project-44
+npm install
+```
 
-### brain-even:
+## Игры
 
-[![asciicast brain-even](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/i3nPQyhn9ScwXCCIO9MyWOmvF)
+### brain-even: Чётное / нечётное
 
-### brain-calc:
+Определите, является ли число чётным.
 
-[![asciicast brain-calc](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/RbaXU3xdeIo1zJ4rUH110Ponv)
+[<img src="https://asciinema.org/a/i3nPQyhn9ScwXCCIO9MyWOmvF.svg" alt="brain-even demo" width="836"/>](https://asciinema.org/a/i3nPQyhn9ScwXCCIO9MyWOmvF)
 
-### brain-gcd:
+### brain-calc: Калькулятор
 
-[![asciicast brain-gcd](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/GIQcC4fpMU3Kbyf18yGb0wo0e)
+Вычислите результат математического выражения.
 
-### brain-progression:
+[<img src="https://asciinema.org/a/RbaXU3xdeIo1zJ4rUH110Ponv.svg" alt="brain-calc demo" width="836"/>](https://asciinema.org/a/RbaXU3xdeIo1zJ4rUH110Ponv)
 
-[![asciicast brain-progression](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/yW2Z7aLGFrGeQBoXNg3aXNTn2)
+### brain-gcd: Наибольший общий делитель
 
-### brain-prime
+Найдите наибольший общий делитель двух чисел.
 
-[![asciicast brain-prime](https://gravatar.com/avatar/26a150fc50a9c14b89c8bab8b928d518?s=128&d=retro)](https://asciinema.org/a/GkN8WZL09tHKfmFjQ7dlWY0YS)
+[<img src="https://asciinema.org/a/GIQcC4fpMU3Kbyf18yGb0wo0e.svg" alt="brain-gcd demo" width="836"/>](https://asciinema.org/a/GIQcC4fpMU3Kbyf18yGb0wo0e)
+
+### brain-progression: Арифметическая прогрессия
+
+Найдите недостающее число в арифметической прогрессии.
+
+[<img src="https://asciinema.org/a/yW2Z7aLGFrGeQBoXNg3aXNTn2.svg" alt="brain-progression demo" width="836"/>](https://asciinema.org/a/yW2Z7aLGFrGeQBoXNg3aXNTn2)
+
+### brain-prime: Простое число
+
+Определите, является ли число простым.
+
+[<img src="https://asciinema.org/a/GkN8WZL09tHKfmFjQ7dlWY0YS.svg" alt="brain-prime demo" width="836"/>](https://asciinema.org/a/GkN8WZL09tHKfmFjQ7dlWY0YS)

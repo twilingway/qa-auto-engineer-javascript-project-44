@@ -1,10 +1,8 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
+import startGame from '../index.js'
+import getRandomInt from '../utils.js'
 
-const getRandomOperator = () => {
-  const operators = ['+', '-', '*']
-  const index = getRandomInt(0, operators.length - 1)
-  return operators[index]
-}
+const description = 'What is the result of the expression?'
+const operators = ['+', '-', '*']
 
 const calculate = (num1, num2, operator) => {
   switch (operator) {
@@ -22,13 +20,12 @@ const calculate = (num1, num2, operator) => {
 const generateRound = () => {
   const num1 = getRandomInt(1, 50)
   const num2 = getRandomInt(1, 50)
-  const operator = getRandomOperator()
+  const operator = operators[getRandomInt(0, operators.length - 1)]
   const question = `${num1} ${operator} ${num2}`
   const correctAnswer = String(calculate(num1, num2, operator))
   return { question, correctAnswer }
 }
 
-export default {
-  description: 'What is the result of the expression?',
-  generateRound,
+export default () => {
+  startGame(description, generateRound)
 }

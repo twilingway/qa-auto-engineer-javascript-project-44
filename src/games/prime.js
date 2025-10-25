@@ -1,3 +1,8 @@
+import startGame from '../index.js'
+import getRandomInt from '../utils.js'
+
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 const isPrime = (num) => {
   if (num < 2) return false
   if (num === 2) return true
@@ -10,12 +15,6 @@ const isPrime = (num) => {
   return true
 }
 
-const getRandomInt = (min, max) => {
-  const minCeiled = Math.ceil(min)
-  const maxFloored = Math.floor(max)
-  return Math.floor(Math.random() * (maxFloored - minCeiled + 1)) + minCeiled
-}
-
 const generateRound = () => {
   const number = getRandomInt(2, 100)
   const question = String(number)
@@ -23,7 +22,6 @@ const generateRound = () => {
   return { question, correctAnswer }
 }
 
-export default {
-  description: 'Answer "yes" if given number is prime. Otherwise answer "no".',
-  generateRound,
+export default () => {
+  startGame(description, generateRound)
 }

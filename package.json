@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.6.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/twilingway/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/twilingway/qa-auto-engineer-javascript-project-44/actions)",
+  "description": "A set of five console games built using JavaScript.",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
