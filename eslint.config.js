@@ -1,7 +1,7 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import { defineConfig } from 'eslint/config';
-import stylistic from '@stylistic/eslint-plugin';
+import js from '@eslint/js'
+import globals from 'globals'
+import { defineConfig } from 'eslint/config'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default defineConfig([
   stylistic.configs.recommended,
@@ -12,10 +12,10 @@ export default defineConfig([
     languageOptions: { globals: globals.node },
     rules: {
       // Переопределяем: разрешаем и требуем точки с запятой
-      '@stylistic/semi': ['error', 'always'],
+      // '@stylistic/semi': ['error', 'always'],
       '@stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true }],
       '@stylistic/arrow-parens': ['error', 'always'],
       'no-unused-vars': 'warn',
     },
   },
-]);
+])
