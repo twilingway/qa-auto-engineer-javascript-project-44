@@ -1,4 +1,4 @@
-import startGame from '../index.js'
+import runGame from '../index.js'
 import getRandomInt from '../utils.js'
 
 const description = 'What is the result of the expression?'
@@ -27,5 +27,5 @@ const generateRound = () => {
 }
 
 export default () => {
-  startGame(description, generateRound)
+  runGame(description, generateRound)
 }
